@@ -27,10 +27,10 @@ end
 
 namespace :h5bp do
     task :build do
-      system("h5bp")
+      system("yeoman build")
     end
     task :clean do
-        system('h5bp clean')
+        system('yeoman clean')
     end
 end
 
@@ -42,4 +42,4 @@ task :cleanup do;
 end;
 
 before 'deploy', 'yeoman build'
-after 'deploy', 'yeoman clean, :cleanup
+after 'deploy', 'yeoman clean', :cleanup
