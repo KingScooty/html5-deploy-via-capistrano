@@ -6,7 +6,7 @@
 
 1. Run the following from the terminal:
 ```
-gem install capistrano
+gem install capistrano ;
 gem install railsless-deploy
 ```
 2. Download this project to your root folder (ensure `config` folder and `Capfile` are in the project root).
