@@ -15,7 +15,7 @@ gem install railsless-deploy
 5. Change line 10 `set :domain, "xxx.xxx.xxx.xxx"` to the IP of your VPS.
 6. This script deploys to `"/home/www/#{application}/html"` by default*
 
-*A production folder and staging folder will be created in this deploy dir to enable a staging domain for testing, and a production domain for production ready code* **Please ensure your VPS is configured, and hosts file matches deploy locations.**
+*A production folder and staging folder will be created in this deploy dir to enable a staging domain for testing, and a production domain for production ready code.* ***Please ensure your VPS is configured, and hosts file matches deploy locations.***
 
 ##Deploying
 
