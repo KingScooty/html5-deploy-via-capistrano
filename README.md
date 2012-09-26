@@ -23,7 +23,7 @@ gem install railsless-deploy
 ##Deploying
 
 ###Default behaviour
-Run `capistrano deploy` to deploy. Capistrano will build the project using yeoman, and then deploy to staging by default.
+Run `capistrano deploy` or `capistrano staging deploy` to deploy. Capistrano will build the project using yeoman, and then deploy to staging by default.
 
 ###Production
-You can overwrite the default behaviour by typing `capistrano deploy:production`, which will build, then deploy to production.
+You can overwrite the default behaviour by typing `capistrano production deploy`, which will build, then deploy to production.
