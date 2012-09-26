@@ -1,6 +1,6 @@
 #Deploy html5 and php sites via Capistrano
 
-**This project requires the user to have root access to their server (VPS) and to have already setup Apache/nginx on it. It also requires [yeoman.io](http://yeoman.io) to be installed**
+**This project requires the user to have root access to their server (VPS) and to have already setup Apache/nginx on it. It also requires [yeoman.io](http://yeoman.io) to be installed, as the build process is delegated. **
 
 ##Setting up
 
